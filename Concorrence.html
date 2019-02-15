@@ -4,11 +4,22 @@
 <meta charset="utf-8">
 <title>SameTimeAccess</title>
 
-<link rel="stylesheet" href="style.css" type="text/css">
-<script type="text/javascript"src="./sametimeopen.js">
+<!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+<script type="text/javascript"src="js/Concorrence.js">
 </script>
 </head>
 <body>
-    <p>How it moves</p>
+    <form id="url_values">
+    <input type="text"value=""id="base_url">
+    <div id="url_second_values">
+    <input type="text"value=""class="url_values"id="s-0">
+    <input type="text"value=""class="url_values"id="s-1">
+    </div>
+    <div id="url_third_values">
+    <input type="text"value=""class="url_values"id="th-0">
+    <input type="text"value=""class="url_values"id="th-1">
+    </div>
+    <input type="button"value="Open"onclick="open_windows();">
+    </form>
 </body>
 </html>
